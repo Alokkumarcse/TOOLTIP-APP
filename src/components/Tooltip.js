@@ -34,7 +34,7 @@ function Tooltip({content, btnRef, position}) {
   /** set the tooltip position */
   const { top, left, right, bottom, height, width } = position; //getting all position value from position props
 
-  let xl = 0, xr =0, yt= 0, yb=0, arrow="";
+  let xl = 0, yt= 0, arrow="";
 
   if(left < width){
     xl = width + 4;
