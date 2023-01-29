@@ -1,11 +1,14 @@
 .tooltip {
-  --bgc:  darkgrey;
+  --bgc:  rgb(133, 130, 130);
   position: absolute;
   background-color: var(--bgc);
   border-radius: 5px;
   padding: 5px;
   text-align: center;
   font-size: 13px;
+  width: max-content;
+  max-width: 100%;
+  z-index: 4;
 }
 
 .arrow {

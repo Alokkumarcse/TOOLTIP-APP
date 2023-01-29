@@ -21,6 +21,9 @@ function App() {
         <div className={styles.btn4}>
           <Button btnText={"Hover 4"} key={4} />
         </div>
+        <div className={styles.btn5}>
+          <Button btnText={"Hover 5"} key={5} />
+        </div>
       </div>
     </div>
     
