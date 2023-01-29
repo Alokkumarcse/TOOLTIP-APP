@@ -6,7 +6,7 @@
 Tooltip Project, which is build using React.
 - Whenevenr hover over the button Tooltip going to popup.
 - We can customize the Button name and Tooltip content via passing name and content as props.
-- Tooltip adjust their position.
+- Tooltip adjust their position on the basis of given value.
 
 ## 🎆 Project Demo
 ![alt-text](https://github.com/Alokkumarcse/TOOLTIP-APP/blob/main/public/tooltip.gif)
