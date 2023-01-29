@@ -63,7 +63,6 @@ function Tooltip({content, btnRef, position}) {
       {arrow === 'right' && <div className={`${styles.arrow} ${styles.right__arrow}`}></div>}
       {arrow === 'top' && <div className={`${styles.arrow} ${styles.top__arrow}`}></div>}
       {arrow === 'bottom' && <div className={`${styles.arrow} ${styles.bottom__arrow}`}></div>}      
-    
     </div>
   );
 }
