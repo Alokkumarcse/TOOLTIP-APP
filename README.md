@@ -14,9 +14,6 @@ Tooltip Project, which is build using React.
 - Clone the Forked Repository in your Local System.
 - Run on Live Server.
 - Enjoy :)
-- For reference - https://akabab.github.io/superhero-api/api
-- For any issues related to the project, raise an ISSUE in the respective Repository.
-
 
 ## 🔨 Tools Used
 - Library: React
