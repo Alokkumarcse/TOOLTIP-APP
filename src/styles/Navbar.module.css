@@ -1,0 +1,9 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  background-image: linear-gradient(rgb(183, 236, 210),rgb(188, 212, 235),rgb(170, 165, 165));
+  padding: 5px;
+  font-weight: bold;
+}

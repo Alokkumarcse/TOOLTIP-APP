@@ -1,0 +1,45 @@
+.tooltip {
+  --bgc:  darkgrey;
+  position: absolute;
+  background-color: var(--bgc);
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.arrow {
+  height: 0;
+  width: 0;
+  border: 8px solid transparent;
+  position: absolute;
+}
+
+.left__arrow {
+  border-right-color: var(--bgc);
+  left:-14px;
+  border-radius: 5px;
+  top:-50%;
+  transform: translateY(calc(50% + 10px));
+}
+
+.right__arrow {
+  border-left-color: var(--bgc);
+  left:100%;
+  top: -50%;
+  transform:translateY(calc(50% + 10px))
+}
+
+.top__arrow {
+  border-bottom-color: var(--bgc);
+  top: -50%;
+  left:50%;
+  transform: translateX(-50%);
+}
+
+.bottom__arrow {
+  border-top-color: var(--bgc);
+  bottom: calc(-50%);
+  left:50%;
+  transform: translateX(-50%);
+}

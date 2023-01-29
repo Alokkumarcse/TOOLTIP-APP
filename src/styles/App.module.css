@@ -1,0 +1,33 @@
+.app {
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgb(202, 171, 171), rgb(179, 209, 179), rgb(174, 174, 216));
+}
+
+.btn__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+}
+
+.btn1 {
+  align-self: center ;
+}
+
+.btn2 {
+  align-self: flex-start;
+}
+
+.btn3 {
+  align-self: flex-end;
+}
+
+.btn4{
+  align-self: center;
+}
+
+
+
