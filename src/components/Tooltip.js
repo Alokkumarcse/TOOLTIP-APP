@@ -60,8 +60,6 @@ function Tooltip({content, btnRef, position,coordinates}) {
   
   /** Render out tooltip jsx here */
   return (
-    
-    // 
     <div className={styles.tooltip} style={{left:xl, top:yt}} > 
       {content} 
       {arrow === 'left' && <div className={`${styles.arrow} ${styles.left__arrow}`}></div> }
