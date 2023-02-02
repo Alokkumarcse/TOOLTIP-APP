@@ -1,38 +1,38 @@
-import React, {useEffect, useState} from "react";
+import React from "react";
 
 import styles from '../styles/Tooltip.module.css';
 
 function Tooltip({content, btnRef, position,coordinates}) {
   /** Finding window current height and width using custom hooks */ 
-  function useWindowSize() {
-    const [windowSize, setWindowSize] = useState({
-      width: window.innerWidth,
-      height: window.innerHeight,
-    });
+  // function useWindowSize() {
+  //   const [windowSize, setWindowSize] = useState({
+  //     width: window.innerWidth,
+  //     height: window.innerHeight,
+  //   });
   
-    useEffect(() => {
-      function handleResize() {
-        setWindowSize({
-          width: window.innerWidth,
-          height: window.innerHeight,
-        });
-      }
+  //   useEffect(() => {
+  //     function handleResize() {
+  //       setWindowSize({
+  //         width: window.innerWidth,
+  //         height: window.innerHeight,
+  //       });
+  //     }
   
-      window.addEventListener('resize', handleResize);
+  //     window.addEventListener('resize', handleResize);
   
-      return () => {
-        window.removeEventListener('resize', handleResize);
-      };
-    }, []);
-    return windowSize;
-  }
+  //     return () => {
+  //       window.removeEventListener('resize', handleResize);
+  //     };
+  //   }, []);
+  //   return windowSize;
+  // }
 
-  const windowSize = useWindowSize();
-  const cw = windowSize.width; // client width
-  const ch = windowSize.height; // client height
+  // const windowSize = useWindowSize();
+  // const cw = windowSize.width; // client width
+  // const ch = windowSize.height; // client height
 
   // /** set the tooltip position */
-  const {top, left, height, width } = coordinates; //getting all position value from position props
+  const {height, width } = coordinates; //getting all position value from position props
 
   let xl = 0, yt= 0, arrow="";
   if(position === ''){
