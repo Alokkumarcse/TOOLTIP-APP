@@ -9,7 +9,7 @@ Tooltip Project, which is build using React.
 - Tooltip adjust their position on the basis of given value.
 
 ## 🎆 Project Demo
-![alt-text](https://github.com/Alokkumarcse/TOOLTIP-APP/blob/main/public/tooltip.gif)
+![alt-text](https://github.com/Alokkumarcse/TOOLTIP-APP/blob/main/src/tooltip.gif)
 
 ## 🔥 Getting Started With The Project
 - Fork the Project in your Repository.
