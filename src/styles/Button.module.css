@@ -1,9 +1,34 @@
-.btn__container {
-  position: relative;
+.container{
+  display: flex;
+  flex-direction: column;
+  gap:30vh;
 }
 
 .btn{
+  align-self: center;
+  width: fit-content;
   position: relative;
-  border: 2px solid gray;
+  border: 5px solid rgb(197, 159, 159);
+  border-radius: 5px;
   padding:5px 10px;
+}
+
+.span{
+  font-weight: bold;
+  text-align: center;
+  text-decoration: wavy;
+}
+
+.tooltip{
+  position: absolute;
+}
+
+.input,
+.select {
+  padding:7px 10px;
+  background-color: beige;
+  border:none;
+  font-size: 14px;
+  margin: 0 5px;
+  border-radius: 3px;
 }
